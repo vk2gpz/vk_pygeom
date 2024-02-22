@@ -5,12 +5,13 @@ This is a collection of geometry related python packages
 This software is released under the condition described in the LICENSE.
 
 ## install
+```
 python3 -m pip install vk_pygeom
-
+```
 or
-
+```
 pip install git+ssh://git@github.com/vk2gpz/vk_pygeom.git
-
+```
 (notice that ':' in "pip install git+ssh://git@github.com:vk2gpz/vk_pygeom.git" needs to be changed to '/')
 
 
