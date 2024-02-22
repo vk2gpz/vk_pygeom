@@ -1,0 +1,21 @@
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vk_pygeom"
+version = "1.0.3"
+authors = [
+    { name = "vk2gpz", email = "vk2gpz@gmail.com" },
+]
+description = "This is a collection of geometry related python packages"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    # "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/vk2gpz/vk_pygeom"
+Issues = "https://github.com/vk2gpz/vk_pygeom/issues"
