@@ -10,6 +10,7 @@ class WagnerVI(Projection, ABC):
     """
     https://en.wikipedia.org/wiki/Wagner_VI_projection
     """
+
     def _latlong_to_2d(self, latlon: array) -> array:
         # print(f'lat, long = {latlon[0]}, {latlon[1]}')
         x: float = latlon[1] * np.sqrt(1 - 3 * latlon[0] * latlon[0] / (np.pi * np.pi))
@@ -17,17 +18,18 @@ class WagnerVI(Projection, ABC):
         # print(f'x, y = {x}, {y}')
         return np.array([x, y])
 
+
 class WagnerIII(Projection, ABC):
-    _c = 0.5;
+    _c = 0.5
     _m = 2 * np.arccos(_c) / np.pi
 
     """
     https://en.wikipedia.org/wiki/Wagner_VI_projection
     """
+
     def _latlong_to_2d(self, latlon: array) -> array:
         # print(f'lat, long = {latlon[0]}, {latlon[1]}')
         x: float = latlon[1] * np.cos(self._m * latlon[0])
         y: float = latlon[0]
         # print(f'x, y = {x}, {y}')
         return np.array([x, y])
-

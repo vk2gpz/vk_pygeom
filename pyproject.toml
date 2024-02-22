@@ -2,8 +2,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vk_pygeom"
-version = "1.0.4"
+name = "vk2gpz-geom"
+version = "1.0.10"
 authors = [
     { name = "vk2gpz", email = "vk2gpz@gmail.com" },
 ]
@@ -19,3 +19,12 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/vk2gpz/vk_pygeom"
 Issues = "https://github.com/vk2gpz/vk_pygeom/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = [
+    "vk2gpz",
+    "vk2gpz.geom",
+    "vk2gpz.geom.grid",
+    "vk2gpz.geom.projection",
+]

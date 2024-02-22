@@ -6,7 +6,7 @@ This software is released under the condition described in the LICENSE.
 
 ## install
 ```
-python3 -m pip install vk_pygeom
+python3 -m pip install vk2gpz-pygeom
 ```
 or
 ```
@@ -18,7 +18,7 @@ pip install git+ssh://git@github.com/vk2gpz/vk_pygeom.git
 ## test
 python
 ```
->>> import vk.geom.grid.geodesicdome as gd
+>>> import vk2gpz.geom.grid.geodesicdome as gd
 >>> gd.main()
 ```
 

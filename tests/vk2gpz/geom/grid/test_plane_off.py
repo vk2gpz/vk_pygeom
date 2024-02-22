@@ -1,9 +1,4 @@
-from typing import List
-
-from vk2gpz.geom.grid.geodesicdome import GeodesicVertex, GeodesicDome
-from vk2gpz.geom.grid.plane import Plane, Lattice
-from vk2gpz.geom.projection.kavrayskiy import KavrayskiyVII
-from vk2gpz.geom.projection.projection import IProjection
+from src.vk2gpz.geom import Plane, Lattice
 
 
 def main():

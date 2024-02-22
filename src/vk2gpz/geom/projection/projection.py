@@ -1,10 +1,10 @@
 from abc import ABCMeta, abstractmethod
 
 import numpy
-import numpy as np
 from numpy import array, ndarray
 
 from vk2gpz.geom import util
+
 
 class IProjection:
     pass

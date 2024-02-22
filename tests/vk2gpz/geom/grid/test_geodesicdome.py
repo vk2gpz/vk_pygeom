@@ -4,7 +4,7 @@
 import numpy as np
 import plotly.graph_objects as go
 
-from vk2gpz.geom.grid.geodesicdome import GeodesicDome
+from src.vk2gpz.geom.grid.geodesicdome import GeodesicDome
 
 # 描画に必要なグラフやボタン、ドロップダウンなどのUIを提供するパッケージ。
 # `dash_html_components`は、DivタグやH1タグなどのHTMLタグを提供するパッケージ。

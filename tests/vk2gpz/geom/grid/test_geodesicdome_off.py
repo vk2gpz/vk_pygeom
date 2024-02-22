@@ -1,8 +1,8 @@
 from typing import List
 
-from vk2gpz.geom.grid.geodesicdome import GeodesicVertex, GeodesicDome
-from vk2gpz.geom.projection.kavrayskiy import KavrayskiyVII
-from vk2gpz.geom.projection.projection import IProjection
+from src.vk2gpz.geom.grid.geodesicdome import GeodesicVertex, GeodesicDome
+from src.vk2gpz.geom.projection.kavrayskiy import KavrayskiyVII
+from src.vk2gpz.geom import IProjection
 
 
 def _write_OFF(dome: GeodesicDome):

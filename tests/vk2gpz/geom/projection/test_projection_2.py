@@ -2,9 +2,9 @@ import numpy as np
 import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output
 
-from vk2gpz.geom.grid.geodesicdome import GeodesicDome
-from vk2gpz.geom.projection.projection import Projection
-from vk2gpz.geom.projection.wagner import WagnerVI
+from src.vk2gpz.geom.grid.geodesicdome import GeodesicDome
+from src.vk2gpz.geom.projection.projection import Projection
+from src.vk2gpz.geom.projection.wagner import WagnerVI
 
 # 描画に必要なグラフやボタン、ドロップダウンなどのUIを提供するパッケージ。
 # `dash_html_components`は、DivタグやH1タグなどのHTMLタグを提供するパッケージ。
