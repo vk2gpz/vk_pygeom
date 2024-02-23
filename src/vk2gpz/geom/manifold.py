@@ -19,6 +19,10 @@ class Manifold(IManifold, metaclass=ABCMeta):
     def get_all_vertices(self) -> List[Vertex]:
         raise NotImplemented()
 
+    def get_number_of_vertices(self) -> int:
+        return len(self.get_all_vertices())
+
+
     @abstractmethod
     def get_faces(self) -> List[Vertex]:
         raise NotImplemented()

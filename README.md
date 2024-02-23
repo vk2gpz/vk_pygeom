@@ -33,3 +33,8 @@ python3 -m build
 python3 -m pip install --upgrade twine
 python3 -m twine upload --repository testpypi dist/*
 ```
+
+## install pacakge from the project locally
+```angular2html
+pip install dynamodb_dataframes --no-index --find-links ./dist
+```
